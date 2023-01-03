@@ -104,8 +104,8 @@ GEM
       tilt
     highcharts-rails (6.0.3)
       railties (>= 3.1)
-    httparty (0.13.7)
-      json (~> 1.8)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
     i18n (1.7.0)
       concurrent-ruby (~> 1.0)
@@ -118,7 +118,6 @@ GEM
       thor (>= 0.14, < 2.0)
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
-    json (1.8.6)
     kaminari (1.1.1)
       activesupport (>= 4.1.0)
       kaminari-actionview (= 1.1.1)
@@ -305,7 +304,7 @@ DEPENDENCIES
   devise (~> 4.2)
   font-awesome-sass (~> 5.11, >= 5.11.2)
   highcharts-rails (~> 6.0, >= 6.0.3)
-  httparty (~> 0.13.7)
+  httparty (~> 0.21.0)
   jbuilder (~> 2.7)
   jquery-datatables
   jquery-rails (~> 4.3, >= 4.3.5)
