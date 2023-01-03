@@ -41,7 +41,7 @@ gem 'rails_admin_rollincode', '~> 1.0'
 #This gem generates nicer default views styled with Bootstrap so you have a bit of a better starting point for your app.
 #gem 'devise-bootstrapped', '~> 0.1.1'
 # Makes http fun! Also, makes consuming restful web services dead easy.
-gem 'httparty', '~> 0.13.7'
+gem 'httparty', '~> 0.21.0'
 # Create beautiful JavaScript charts with one line of Ruby
 gem 'chartkick'
 # Agnostic pagination in plain ruby: it works with any framework, ORM and DB type, with all kinds of collections, even pre-paginated, scopes, Arrays, JSON data... and just whatever you can count. Easy to use and customize, very fast and very light.
